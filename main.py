@@ -14,7 +14,6 @@ def load_data(filepath: str) -> pd.DataFrame:
 
 def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     """Inspects nulls, drops duplicates, and ensures correct data types."""
-    # Standardize column names 
     df.columns = df.columns.str.strip().str.lower().str.replace(' ', '_')
     
     # Drop duplicates if any
