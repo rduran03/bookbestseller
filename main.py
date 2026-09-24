@@ -1,5 +1,5 @@
 import os
-import pandas as pd 
+import pandas as pd
 
 DATA_PATH = os.path.join("data", "bestsellers.csv")
 
@@ -54,7 +54,7 @@ def analyze_bestsellers(df: pd.DataFrame):
     ).round(2)
     print(genre_summary)
 
-    # Top 5 Authors with the Most Bestselling Appearances
+    # Top 5 Authors
     print("\n--- Top 5 Authors by Total Bestseller Appearances ---")
     top_authors = df['author'].value_counts().head(5)
     print(top_authors.to_string())
