@@ -1,5 +1,5 @@
 import os
-import pandas as pd
+import pandas as pd 
 
 DATA_PATH = os.path.join("data", "bestsellers.csv")
 
