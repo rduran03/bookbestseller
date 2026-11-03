@@ -1,2 +1,3 @@
 # Book Bestseller
-Python project that uses pandas library, imports from a .csv file and run an analysis on book bestsellers from Amazon
+Python project that uses pandas library, imports from a .csv file and run an analysis on book bestsellers from Amazon.
+Provides all the information into a seperate file.
