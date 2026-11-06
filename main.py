@@ -78,7 +78,7 @@ def export_summary(df: pd.DataFrame, output_path: str = "genre_summary.csv"):
     summary.to_csv(output_path, index=False)
     print(f"\nYearly genre summary successfully saved to '{output_path}'.")
 
-# Main Execution
+# Main 
 if __name__ == "__main__":
     try:
         raw_df = load_data(DATA_PATH)
